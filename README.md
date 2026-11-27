@@ -74,9 +74,13 @@ Se mencionan únicamente tecnologías generales. No se publican la arquitectura 
 
 Las funciones planificadas se identifican como desarrollo futuro y no como características ya certificadas.
 
-## Vista previa
+## Galería visual
 
-Este repositorio incluye material gráfico de presentación y demostraciones seleccionadas del proyecto. El contenido visual podrá actualizarse conforme avance el desarrollo.
+<p align="center">
+  <img src="assets/elcinematic-showcase.svg" alt="Presentación visual de ELCinematicEntry con estética futurista de Entertainment LAND" width="100%">
+</p>
+
+La galería presenta el concepto visual, las funciones generales y las tecnologías del producto. Se ampliará con capturas reales y demostraciones seleccionadas conforme avance el desarrollo.
 
 ## Distribución y propiedad
 
