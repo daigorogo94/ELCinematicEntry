@@ -1,78 +1,96 @@
 # ELCinematicEntry
 
 <p align="center">
-  <img src="assets/elcinematic-overview.svg" alt="ELCinematicEntry — cinematic server entry" width="100%">
+  <img src="assets/elcinematic-overview.svg" alt="ELCinematicEntry — entrada cinematográfica para Minecraft" width="100%">
 </p>
 
 <p align="center">
-  <strong>A more memorable first impression for every player.</strong><br>
-  Cinematic arrival experiences developed for Entertainment LAND.
+  <strong>Haz que cada llegada sea una experiencia.</strong><br>
+  Sistema de entrada cinematográfica desarrollado para Entertainment LAND.
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Platform-Paper%201.21.11-2D6A4F?style=flat-square" alt="Paper 1.21.11">
-  <img src="https://img.shields.io/badge/Runtime-Java%2021-E76F00?style=flat-square" alt="Java 21">
-  <img src="https://img.shields.io/badge/Project-Commercial-7357C8?style=flat-square" alt="Commercial project">
-  <img src="https://img.shields.io/badge/Source-Proprietary-333333?style=flat-square" alt="Proprietary">
+  <img src="https://img.shields.io/badge/Servidor-Paper%201.21.11-2D6A4F?style=flat-square" alt="Paper 1.21.11">
+  <img src="https://img.shields.io/badge/Java-21-E76F00?style=flat-square" alt="Java 21">
+  <img src="https://img.shields.io/badge/Gradle-8.14.3-246BCE?style=flat-square" alt="Gradle 8.14.3">
+  <img src="https://img.shields.io/badge/PacketEvents-2.11.1-7357C8?style=flat-square" alt="PacketEvents 2.11.1">
+  <img src="https://img.shields.io/badge/Proyecto-Comercial-7357C8?style=flat-square" alt="Proyecto comercial">
+</p>
+
+<p align="center">
+  ¿Prefieres leerlo en inglés?
+  <a href="https://translate.google.com/translate?sl=es&tl=en&u=https%3A%2F%2Fgithub.com%2Fdaigorogo94%2FELCinematicEntry">Traducir esta página con Google Translate</a>
 </p>
 
 ---
 
-## About the project
+## ¿Qué es ELCinematicEntry?
 
-**ELCinematicEntry** is a custom Minecraft server experience designed to transform the moment a player joins into a polished, cinematic welcome.
+**ELCinematicEntry** es un complemento personalizado para servidores Minecraft que transforma el momento en que un jugador ingresa al servidor en una bienvenida cinematográfica.
 
-The project focuses on presentation, smooth visual transitions and configurable audiovisual identity, while keeping server integration and player experience in mind.
+El proyecto prioriza la presentación visual, las transiciones fluidas y una identidad audiovisual configurable, manteniendo en cuenta la integración con el servidor y la experiencia del jugador.
 
-## Experience highlights
+## Características principales
 
-- Cinematic arrival sequence with a guided camera presentation.
-- Customizable title and subtitle presentation.
-- Adjustable timing for on-screen messages.
-- Visual-effect profiles and configurable sound atmosphere.
-- Player controls to manage the experience.
-- Development roadmap for broader client compatibility.
+- Secuencia de bienvenida cinematográfica con presentación de cámara.
+- Títulos y subtítulos personalizables.
+- Duración configurable de los mensajes en pantalla.
+- Perfiles de efectos visuales y ambiente sonoro.
+- Controles para que el jugador gestione la experiencia.
+- Desarrollo por etapas para ampliar la compatibilidad entre plataformas.
 
-## Technology overview
+## Tecnologías utilizadas
 
-The project is built around established technologies from the Minecraft server ecosystem:
+El proyecto se apoya en tecnologías conocidas del ecosistema de servidores Minecraft:
 
-| Technology | Project role |
+| Tecnología | Uso general |
 |---|---|
-| **Java 21** | Runtime and development platform |
-| **Paper API 1.21.11** | Minecraft server integration |
-| **Gradle Kotlin DSL** | Build and dependency management |
-| **PacketEvents** | Networking compatibility layer |
-| **Geyser / Floodgate** | Cross-platform compatibility considerations |
+| **Java 21** | Plataforma de ejecución y desarrollo |
+| **Paper API 1.21.11** | Integración con el servidor Minecraft |
+| **Gradle Kotlin DSL 8.14.3** | Gestión de compilación y dependencias |
+| **PacketEvents 2.11.1** | Capa de compatibilidad de comunicación con clientes |
 
-This overview intentionally stays at product level. Internal implementation, source structure, detailed configuration and proprietary development methods are not published.
+Se mencionan únicamente tecnologías generales. No se publican la arquitectura interna, el código fuente, las clases, la lógica de funcionamiento ni las configuraciones privadas del producto.
 
-## Development status
+## Versiones y plataformas
 
-- **Phase 1** — Core welcome sequence and player preferences.
-- **Phase 2.1** — Cinematic camera experience; smooth movement validated in server testing.
-- **Phase 2.2** — Audiovisual customization and presentation profiles.
-- **Next milestone** — Dedicated Bedrock camera compatibility validation.
+| Componente | Compatibilidad / estado |
+|---|---|
+| **Minecraft Java Edition 1.21.11** | Plataforma objetivo de esta versión |
+| **Paper 1.21.11** | Servidor objetivo |
+| **Java 21** | Requisito de ejecución y compilación |
+| **Gradle 8.14.3** | Versión utilizada para compilar |
+| **PacketEvents 2.11.1** | Dependencia obligatoria |
+| **Geyser-Spigot / Floodgate** | Dependencias opcionales detectadas; no implican compatibilidad de cámara Bedrock validada |
 
-Compatibility statements refer only to features that have been tested. Planned work is identified as such.
+**Importante:** la cámara cinematográfica de la versión actual fue validada en clientes Java durante las pruebas del proyecto. La compatibilidad específica de cámara para Bedrock está prevista para una fase posterior y no debe considerarse disponible hasta completar sus pruebas.
 
-## Product preview
+## Estado del desarrollo
 
-The repository includes project artwork and selected preview material. Demonstrations are representative of the development environment and may change as the product evolves.
+- **Fase 1:** detección de entrada, preferencias del jugador y controles básicos.
+- **Fase 2.1:** experiencia de cámara cinematográfica; movimiento fluido validado en pruebas.
+- **Fase 2.2:** personalización audiovisual, títulos, partículas y sonidos.
+- **Próxima etapa:** investigación y validación específica de la cámara para Bedrock.
 
-## Distribution and licensing
+Las funciones planificadas se identifican como desarrollo futuro y no como características ya certificadas.
 
-ELCinematicEntry is a proprietary commercial project developed for Entertainment LAND.
+## Vista previa
 
-- This repository is a public product showcase, not a source-code distribution.
-- No compiled plugin JARs are published here.
-- No license to reproduce, modify, redistribute, sublicense or resell the plugin is granted by viewing this repository.
-- Commercial access and licensing are managed by the project owner.
+Este repositorio incluye material gráfico de presentación y demostraciones seleccionadas del proyecto. El contenido visual podrá actualizarse conforme avance el desarrollo.
 
-For product information, licensing or partnership inquiries, contact the Entertainment LAND team through its official channels.
+## Distribución y propiedad
+
+ELCinematicEntry es un producto comercial propietario desarrollado para Entertainment LAND.
+
+- Este repositorio es un escaparate público del producto, no un repositorio de código fuente.
+- No se distribuyen archivos JAR compilados desde aquí.
+- La consulta de este repositorio no concede permiso para copiar, modificar, redistribuir, sublicenciar o revender el complemento.
+- El acceso comercial y las licencias son gestionados por el propietario del proyecto.
+
+Para consultas comerciales o de licenciamiento, utiliza los canales oficiales de Entertainment LAND.
 
 ---
 
 <p align="center">
-  <sub>© 2026 Entertainment LAND · ELCinematicEntry · All rights reserved.</sub>
+  <sub>© 2026 Entertainment LAND · ELCinematicEntry · Todos los derechos reservados.</sub>
 </p>
