@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+<defs>
+ <linearGradient id="bg" x2="1" y2="1"><stop stop-color="#080d1b"/><stop offset=".55" stop-color="#111a32"/><stop offset="1" stop-color="#25113d"/></linearGradient>
+ <linearGradient id="neon" x2="1"><stop stop-color="#36e8dc"/><stop offset=".55" stop-color="#6d9cff"/><stop offset="1" stop-color="#e44dff"/></linearGradient>
+ <linearGradient id="panel" x2="0" y2="1"><stop stop-color="#172742" stop-opacity=".96"/><stop offset="1" stop-color="#0a1022" stop-opacity=".96"/></linearGradient>
+ <filter id="glow"><feGaussianBlur stdDeviation="7" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+</defs>
+<rect width="1600" height="900" fill="url(#bg)"/>
+<g opacity=".16" stroke="#6da7d8"><path d="M0 140H1600M0 280H1600M0 420H1600M0 560H1600M0 700H1600M0 840H1600"/><path d="M160 0V900M320 0V900M480 0V900M640 0V900M800 0V900M960 0V900M1120 0V900M1280 0V900M1440 0V900"/></g>
+<circle cx="1310" cy="180" r="270" fill="#a13cff" opacity=".09"/><circle cx="220" cy="760" r="280" fill="#24e8d4" opacity=".08"/>
+<g font-family="Arial,Helvetica,sans-serif">
+ <text x="800" y="64" text-anchor="middle" fill="#8af8ed" font-size="20" letter-spacing="10">ENTERTAINMENT LAND · ESTUDIO</text>
+ <text x="800" y="150" text-anchor="middle" fill="#fff" font-size="82" font-weight="800" letter-spacing="-2"><tspan fill="#46e7dc">EL</tspan>Cinematic<tspan fill="#d45aff">Entry</tspan></text>
+ <text x="800" y="198" text-anchor="middle" fill="#dce8ff" font-size="27" letter-spacing="5">CINEMÁTICAS DE ENTRADA PARA MINECRAFT</text>
+ <text x="800" y="246" text-anchor="middle" fill="#bdcbe5" font-size="23">Transforma la llegada de cada jugador en una bienvenida memorable.</text>
+</g>
+<!-- cinematic filmstrip -->
+<g filter="url(#glow)" stroke="url(#neon)" stroke-width="3" fill="none"><rect x="350" y="292" width="1190" height="205" rx="24"/><path d="M365 315H1525M365 474H1525"/></g>
+<g>
+ <rect x="370" y="314" width="355" height="160" rx="12" fill="#1c3454"/><path d="M370 435L480 348 550 415 640 330 725 405V474H370Z" fill="#42618b"/><circle cx="640" cy="350" r="25" fill="#ffd9a1"/>
+ <rect x="745" y="314" width="355" height="160" rx="12" fill="#171d46"/><path d="M745 474V390L820 345 870 390 940 325 1010 382 1100 355V474Z" fill="#4d3986"/><path d="M900 474V390H955V474M970 474V370H1030V474" fill="#182e56"/><text x="925" y="430" text-anchor="middle" fill="#70f6f0" font-size="35" font-family="Arial" font-weight="bold">EL</text>
+ <rect x="1120" y="314" width="400" height="160" rx="12" fill="#171331"/><path d="M1120 430L1190 380 1250 420 1330 340 1400 400 1520 350V474H1120Z" fill="#62348d"/><path d="M1210 345L1290 320 1350 345 1300 360Z" fill="#48d8f4"/><path d="M1210 345L1300 360 1290 372 1200 357Z" fill="#a64dff"/>
+</g>
+<!-- left character -->
+<g transform="translate(65 330)">
+ <path d="M25 150L90 60 190 35 270 80 300 190 260 310 90 330 15 260Z" fill="#10172b" stroke="#54f1ed" stroke-width="5"/>
+ <path d="M70 75L125 25 235 42 280 105 245 160 90 150Z" fill="#171c31" stroke="#b45cff" stroke-width="5"/>
+ <path d="M95 110L145 82 225 95 250 160 220 225 110 215 75 165Z" fill="#253c5d"/>
+ <path d="M112 140L153 124 153 166 112 180Z" fill="#45e9ed"/><path d="M190 132L230 143 220 182 185 174Z" fill="#45e9ed"/>
+ <path d="M65 250L245 245 305 410 265 500 55 500 5 390Z" fill="#121b33" stroke="#42e9e4" stroke-width="5"/>
+ <path d="M85 285L240 285 220 370 90 370Z" fill="#263d60"/><text x="160" y="345" fill="#d8faff" font-size="45" font-weight="bold" text-anchor="middle" font-family="Arial">EL</text>
+ <path d="M80 410L125 410 105 500 40 500ZM230 410L270 410 310 500 245 500Z" fill="#1d2e4d"/>
+</g>
+<!-- feature row -->
+<g font-family="Arial,Helvetica,sans-serif">
+ <text x="940" y="550" text-anchor="middle" fill="#fff" font-size="31" font-weight="bold">CARACTERÍSTICAS PRINCIPALES</text>
+ <g fill="url(#panel)" stroke="url(#neon)" stroke-width="2">
+  <rect x="350" y="575" width="220" height="160" rx="18"/><rect x="590" y="575" width="220" height="160" rx="18"/><rect x="830" y="575" width="220" height="160" rx="18"/><rect x="1070" y="575" width="220" height="160" rx="18"/><rect x="1310" y="575" width="230" height="160" rx="18"/>
+ </g>
+ <g fill="#66f5ed" font-size="40" text-anchor="middle"><text x="460" y="632">◉</text><text x="700" y="632">◎</text><text x="940" y="632">⚙</text><text x="1180" y="632">✧</text><text x="1425" y="632">▱</text></g>
+ <g fill="#fff" font-size="20" font-weight="bold" text-anchor="middle"><text x="460" y="675">Bienvenida</text><text x="700" y="675">Cámara</text><text x="940" y="675">Personalización</text><text x="1180" y="675">Ambiente</text><text x="1425" y="675">Optimización</text></g>
+ <g fill="#b8c9e6" font-size="15" text-anchor="middle"><text x="460" y="704">Secuencias de entrada</text><text x="700" y="704">Recorrido cinematográfico</text><text x="940" y="704">Tiempos y efectos</text><text x="1180" y="704">Textos y sonidos</text><text x="1425" y="704">Diseñado para servidores</text></g>
+</g>
+<!-- tech/footer cards -->
+<g font-family="Arial,Helvetica,sans-serif">
+ <rect x="350" y="770" width="780" height="82" rx="18" fill="#0c152b" stroke="#56e9e2" stroke-width="2"/>
+ <text x="390" y="820" fill="#8af8ed" font-size="19" font-weight="bold">TECNOLOGÍAS</text>
+ <text x="600" y="820" fill="#fff" font-size="19">Java 21</text><text x="735" y="820" fill="#fff" font-size="19">Paper 1.21.11</text><text x="930" y="820" fill="#fff" font-size="19">Gradle</text>
+ <rect x="1160" y="770" width="380" height="82" rx="18" fill="#170f2c" stroke="#d45aff" stroke-width="2"/>
+ <text x="1350" y="805" text-anchor="middle" fill="#fff" font-size="21" font-weight="bold">ESTADO DEL PROYECTO</text><text x="1350" y="834" text-anchor="middle" fill="#e69bff" font-size="20">Fase 2.2 · En desarrollo</text>
+ <text x="800" y="885" text-anchor="middle" fill="#8499bc" font-size="14" letter-spacing="3">PRESENTACIÓN DEL PRODUCTO · SIN EXPONER CÓDIGO NI IMPLEMENTACIÓN INTERNA</text>
+</g>
+</svg>
